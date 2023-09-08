@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brace</title>
+    <link rel="stylesheet" href="Brace.css">
+    <script type="text/javascript" src="Brace.js"></script>
+</head>
+<body>
+    <div class="mscreen" id="mscreen"></div>
+    <input type="text" name="score" id="score" class="score" value="Score: 0">
+    <input type="text" name="Hsscore" id="Hscore" class="Hscore" value="High Score: 0">
+    <div class="ctrls">
+        <div class="mr" onpointerleave="moveNow('no');" onpointerenter="moveNow('right');">
+        </div>
+        <div class="ml" onpointerleave="moveNow('no');" onpointerenter="moveNow('left');">
+        </div>
+        <div class="tl" onpointerleave="moveNow('no');" onpointerenter="moveNow('tleft');"></div>
+        <div class="tr" onpointerleave="moveNow('no');" onpointerenter="moveNow('tright');"></div>
+        <div class="sh show1"></div>
+        <div class="sh show2"></div>
+    </div>
+</body>
+</html>
