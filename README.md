@@ -1,3 +1,3 @@
 # BikeRun
-Bike Game using Web Development
-<a href="https://manmohansinghraghav.github.io/BikeRun/">See Live Project</a>
+Bike Game using Web Development<br>
+<a href="https://manmohansinghraghav.github.io/BikeRun/">Live Project</a>
